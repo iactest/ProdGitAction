@@ -10,3 +10,8 @@ resource "aws_s3_bucket" "examplebucket100" {
 resource "aws_s3_bucket" "examplebucket200" {
   bucket = "examplebuckettftest200"
 }
+
+resource "aws_s3_bucket" "examplebucketDel" {
+  bucket = "examplebuckettftestDel"
+}
+
